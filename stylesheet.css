@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: Hallo-Sans; 
+    font-weight: normal; 
+    src: url('fonts/Hallo-sans.otf'); 
+} 
+
+@font-face { 
+    font-family: Hallo-Sans; 
+    font-weight: bold; 
+    src: url('fonts/Hallo-sans-black.otf'); 
+
+} 
+@font-face {
+    font-family: 'geosanslightregular';
+    src: url('fonts/geosanslight-webfont.woff2') format('woff2'),
+         url('fonts/geosanslight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+    letter-spacing: .1em; 
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s; /* Safari */
+}
+
+
+p1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:30px;
+    color: #e6e6e6;
+    font-weight: normal;
+    background-color: rgb(71, 71, 71);
+}
+
+p2 {
+
+}
+
+p3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: rgb(163, 70, 70);
+    max-width: 50rem;
+    width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size:70px;
+    font-family: Hallo-Sans;
+    font-weight: bold;
+    background-color: #494949;
+    text-align: center;
+    width:45rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    max-width: 45rem;
+}
